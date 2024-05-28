@@ -1,0 +1,16 @@
+{
+  "name": "gaoerji-project",
+  "version": "1.0.0",
+  "description": "Node.js project with Puppeteer for GIF fetching",
+  "main": "api/fetch_gif.js",
+  "scripts": {
+    "start": "node api/fetch_gif.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
